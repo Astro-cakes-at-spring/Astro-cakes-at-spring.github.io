@@ -31,7 +31,7 @@
                 <h1>Торты на заказ</h1>
                 <div >
                     <!-- <p>Рассчитайте стоимость торта</p> -->
-                    <a href="" class="button">Рассчитать</a>
+                    <a  class="button scroll-button">Рассчитать</a>
                 </div>
             </din>
             
@@ -104,7 +104,7 @@
                 </div>
                 <img src="src/images/image-3.png" alt="image">
             </div>
-            <a href="" class="button">Сделать заказ</a> 
+            <a class="button scroll-button">Сделать заказ</a> 
         </section>
 
 
@@ -129,28 +129,25 @@
                 </li>
                 
             </ul>
+            
         </section>
-     
 
         <section class="order-form">
-            <h2>Напишите нам</h2>
-            <form>
-                <p>Свяжитесь с нами!</p>
-                <input type="text" placeholder="Ваше имя" required>
-                <input type="text" placeholder="Ваш знак зодиака" >
-                <input type="tel" placeholder="Ваш телефон" required>
-                <input type="email" placeholder="Ваша почта" >
-                <input type="text" placeholder="Дата Вашего мероприятия" >
-                <input type="text" placeholder="Ваши пожелания" ></textarea>
-                <button class="button" type="submit">Отправить</button>
+            <h2 style="margin-left: -77%;">Напишите нам</h2>
+            <form class="myForm">
+                <p style="margin: 30px;">Свяжитесь с нами!</p>
+                <div class="input-row">
+                    <input type="text" placeholder="Ваше имя" required name="Имя">
+                    <input type="text" placeholder="Ваш знак зодиака" name="Знак зодиака">
+                </div>
+                <div class="input-row">
+                    <input type="tel" placeholder="Ваш телефон" required name="Телефон">
+                    <input type="text" placeholder="Дата Вашего мероприятия" name="Дата мероприятия">
+                </div>
+                <input type="text" placeholder="Ваши пожелания" style="width: 700px ;" name="Пожелания">
+                <button class="button" type="submit" style=" min-width: 270px; min-height: 60px; border: 0;">Отправить</button>
             </form>
         </section>
-
-            
-
-    
-
-    
      <footer>
         
         <div class="footer-contact">
@@ -160,8 +157,6 @@
         </div>
     </footer>
 
-    <script >
-        
-    </script>
+    <script src="script.js"></script>
 </body>
 </html> 
